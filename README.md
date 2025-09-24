@@ -7,14 +7,14 @@ docker-compose up -d --build
 localhost:8080
 ```
 Вход и регистрация:
-![img](1.jpg)
-![img](2.jpg)
+![img](pic/1.jpg)
+![img](pic/2.jpg)
 Посты:
-![img](3.jpg)
-![img](4.jpg)
+![img](pic/3.jpg)
+![img](pic/4.jpg)
 Поиск:
-![img](6.jpg)
+![img](pic/6.jpg)
 Редактирование:
-![img](7.jpg)
+![img](pic/7.jpg)
 Удаление:
-![img](8.jpg)
+![img](pic/8.jpg)
