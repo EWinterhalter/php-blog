@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - composer
+
+  composer:
+    image: composer:2
+    container_name: laravel-composer
+    working_dir: /var/www/html
+    volumes:
+      - ./src:/var/www/html
+    command: ["composer", "create-project", "--prefer-dist", "laravel/laravel", "."]
+
