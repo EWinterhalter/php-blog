@@ -10,7 +10,7 @@ docker-compose up -d --build
 ```
  Работает на 
 ```sh
-localhost:8080
+localhost:8000
 ```
 Вход и регистрация:
 ![img](pic/1.jpg)
