@@ -1,3 +1,7 @@
+Миниблог на PHP, с использованием Laravel
+В качестве СУБД - Sqlite
+Маршруты: login,logout,posts,edit,create,register
+
 Запуск
 ```sh
 docker-compose up -d --build
